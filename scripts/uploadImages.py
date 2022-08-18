@@ -52,7 +52,7 @@ def main():
         API_ENDPOINT = args[3]
         AUTH_TOKEN = args[4]
         TIME_BETWEEN_REQUESTS = int(args[5])
-        IMAGE_EXTENSION_TYPE = '.jpeg'
+        IMAGE_EXTENSION_TYPE = '.jpg'
         
         print('Image Source Directory: ' + DIRECTORY)
         print('Camera: ' + CAMERA_ID)
